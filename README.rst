@@ -5,6 +5,13 @@ RADIS Examples
 Interactive examples to calculates of infrared spectra of molecules with RADIS 
 
 
+Try
+---
+
+Run interactively with:
+
+.. image:: https://mybinder.org/badge.svg :target: https://mybinder.org/v2/gh/radis/radis-examples/master
+
 
 Links
 -----
