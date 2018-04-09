@@ -11,7 +11,7 @@ Try
 Run interactively with:
 
 .. image:: https://mybinder.org/badge.svg 
-    :target: https://mybinder.org/v2/gh/radis/radis-examples/master
+    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
     :alt: Binder
 
 
