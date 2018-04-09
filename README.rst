@@ -2,7 +2,7 @@
 RADIS Examples
 ==============
 
-Interactive calculates of infrared spectra of molecules with RADIS 
+Interactive examples to calculates of infrared spectra of molecules with RADIS 
 
 
 
@@ -10,7 +10,7 @@ Links
 -----
 
 - RADIS Documentation: http://radis.readthedocs.io/
-- RADIS Source files: https://github.com/radis
+- RADIS Source files: https://github.com/radis/radis
 - PyPi project: https://pypi.python.org/pypi/radis
 - Test status: https://travis-ci.org/radis/radis
 - Test coverage: https://codecov.io/gh/radis/radis

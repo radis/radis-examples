@@ -1,0 +1,14 @@
+name: RADIS-ENV
+channels:
+- conda-forge
+- defaults
+- astropy
+dependencies:
+- numpy
+- scipy
+- matplotlib
+- pandas
+- plotly
+- astroquery
+- pip:
+  - radis
