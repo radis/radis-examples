@@ -2,7 +2,7 @@
 RADIS Examples
 ==============
 
-Interactive examples to calculates of infrared spectra of molecules with RADIS 
+Interactive examples to calculate infrared spectra of molecules with [RADIS](http://radis.readthedocs.io/)
 
 
 Try
