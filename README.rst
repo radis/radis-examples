@@ -13,8 +13,8 @@ Interactive Examples
 
 Run RADIS interactively directly from the browser. No installation needed!
 
-`spectrum.ipynb <spectrum.ipynb>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. `spectrum.ipynb <spectrum.ipynb>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Manipulate a `Spectrum <http://radis.readthedocs.io/en/latest/source/radis.spectrum.spectrum.html#radis.spectrum.spectrum.Spectrum>`_ object:
 
@@ -30,8 +30,8 @@ Static Examples
 then run these examples locally. 
 
 
-Multi Temperature Fit
-~~~~~~~~~~~~~~~~~~~~~
+1. Multi Temperature Fit
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 A 3 temperature fitting example reproducing the validation case of Klarenaar 2017 [1]_, who calculated a transmittance
 spectrum from the initial data of Dang 1973 [2]_, with a 1 rotational temperature + 
