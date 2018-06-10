@@ -13,6 +13,11 @@ Interactive Examples
 
 Run RADIS interactively directly from the browser. No installation needed!
 
+`spectrum.ipynb <spectrum.ipynb>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Manipulate a `Spectrum <http://radis.readthedocs.io/en/latest/source/radis.spectrum.spectrum.html#radis.spectrum.spectrum.Spectrum>`_ object:
+
 .. image:: https://mybinder.org/badge.svg 
     :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
     :alt: Binder
