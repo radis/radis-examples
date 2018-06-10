@@ -25,7 +25,7 @@ Static Examples
 then run these examples locally. 
 
 
-multi-temperature-fit
+Multi Temperature Fit
 ~~~~~~~~~~~~~~~~~~~~~
 
 A 3 temperature fitting example reproducing the validation case of Klarenaar 2017 [1]_, who calculated a transmittance
@@ -39,7 +39,7 @@ oscillator - rigid rotor model
 
 The example is based on one of `RADIS validation cases <https://github.com/radis/radis/tree/master/radis/test/validation>`_.
 
-It makes use of the RADIS `Spectrum <file:///D:/GitHub/radis/docs/_build/html/index.html#the-spectrum-class>`_
+It makes use of the RADIS `Spectrum <http://radis.readthedocs.io/en/latest/#the-spectrum-class>`_
 class and the associated compare and load functions
 
 
@@ -57,7 +57,8 @@ References
 ----------
 
 .. [1] Klarenaar et al 2017, "Time evolution of vibrational temperatures in a CO2 glow 
-       discharge measured with infrared absorption spectroscopy"
+       discharge measured with infrared absorption spectroscopy" doi/10.1088/1361-6595/aa902e
 
-.. [2] Dang et al 1973, "Detailed vibrational population distributions in a CO2 laser 
-        discharge as measured with a tunable diode laser"
+.. [2] Dang et al 1982, "Detailed vibrational population distributions in a CO2 laser 
+        discharge as measured with a tunable diode laser" doi/10.1007/BF00694640
+
