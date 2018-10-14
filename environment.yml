@@ -11,4 +11,4 @@ dependencies:
 - plotly
 - astroquery
 - pip:
-  - radis>0.9.14
+  - radis>=0.9.14
