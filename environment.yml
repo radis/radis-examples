@@ -9,6 +9,8 @@ dependencies:
 - matplotlib
 - pandas
 - plotly
+- h5py
+- numba
 - astroquery
 - pip:
   - radis>=0.9.14
