@@ -20,7 +20,7 @@ Manipulate a `Spectrum <http://radis.readthedocs.io/en/latest/source/radis.spect
 
 .. image:: https://mybinder.org/badge.svg 
     :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
-    :alt: Binder
+    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
 
 2. `first_example.ipynb <first_example.ipynb>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,7 +29,16 @@ Calculate CO equilibrium and nonequilibrium spectra:
 
 .. image:: https://mybinder.org/badge.svg 
     :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
-    :alt: Binder
+    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
+
+3. `radis_online.ipynb <radis_online.ipynb>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Start a bare RADIS online session: 
+
+.. image:: https://mybinder.org/badge.svg 
+    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=radis_online.ipynb
+    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=radis_online.ipynb
 
 
 Static Examples
