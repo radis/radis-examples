@@ -1,13 +1,19 @@
+# See https://github.com/binder-examples/conda
 name: RADIS-ENV
 channels:
 - conda-forge
-- defaults
 - astropy
 dependencies:
+- python
 - numpy
+- psutil
+- toolz
 - scipy
 - matplotlib
+- dill
 - pandas
+- partd
+- dask
 - plotly
 - h5py
 - numba
