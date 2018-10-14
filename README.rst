@@ -22,6 +22,15 @@ Manipulate a `Spectrum <http://radis.readthedocs.io/en/latest/source/radis.spect
     :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
     :alt: Binder
 
+2. `first_example.ipynb <first_example.ipynb>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Calculate CO equilibrium and nonequilibrium spectra:
+
+.. image:: https://mybinder.org/badge.svg 
+    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
+    :alt: Binder
+
 
 Static Examples
 ---------------
