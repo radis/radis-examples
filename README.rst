@@ -68,6 +68,16 @@ class and the associated compare and load functions
 .. [2] Dang et al 1982, "Detailed vibrational population distributions in a CO2 laser 
         discharge as measured with a tunable diode laser" doi/10.1007/BF00694640
 
+2. Radiative forcing of CO2 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+An example where we use RADIS to calculate the upward-radiation of the Earth for different CO2 mole fractions 
+in the atmosphere, based on the simple Standard Atmosphere Model. The difference evidences the radiative
+forcing of CO2. 
+
+.. image:: ex_radiative_forcing_co2/out/atmosphere_co2_column.png
+
+Code is available at ` <>`__
 
 Links
 -----
