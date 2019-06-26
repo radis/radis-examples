@@ -77,7 +77,7 @@ forcing of CO2.
 
 .. image:: ex_radiative_forcing_co2/out/atmosphere_co2_column.png
 
-Code is available at ` <>`__
+Code is available in the `radiative_forcing_co2.py file <https://github.com/radis/radis-examples/blob/master/ex_radiative_forcing_co2/radiative_forcing_co2.py>`__
 
 Links
 -----
