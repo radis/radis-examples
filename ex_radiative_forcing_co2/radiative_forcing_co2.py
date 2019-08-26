@@ -97,6 +97,7 @@ sf = SpectrumFactory(wavenum_min=wmin,
                      wstep=wstep,
                      warnings={'MissingSelfBroadeningWarning':'ignore'},
                      export_lines=False,
+                     chunksize='DLM',
                      )
 sf.fetch_databank(load_energies=False)   # loads from HITRAN, requires an internet connection
 
