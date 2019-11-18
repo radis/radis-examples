@@ -4,7 +4,7 @@ RADIS Examples
 
 This project includes:
 
-- Interactive examples to calculate infrared spectra of molecules with `RADIS <http://radis.readthedocs.io/>`__
+- Interactive examples to calculate infrared spectra of molecules with `RADIS <http://radis.readthedocs.io/>`__, a convenient way to have access to HITRAN online without any installation. 
 
 - Static examples of fitting algorithm built around `RADIS <http://radis.readthedocs.io/>`__
 
