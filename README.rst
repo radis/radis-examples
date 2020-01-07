@@ -79,6 +79,33 @@ forcing of CO2.
 
 Code is available in the `radiative_forcing_co2.py file <https://github.com/radis/radis-examples/blob/master/ex_radiative_forcing_co2/radiative_forcing_co2.py>`__
 
+3. HITRAN spectra
+~~~~~~~~~~~~~~~~~
+
+The absorption coefficient of all HITRAN species is calculated in `plot_all_hitran_spectra.py <https://github.com/radis/radis-examples/blob/master/hitran_spectra/plot_all_hitran_spectra.py>`__ at 300 K, 1 atm for the first isotope.
+
+For instance:
+
+- Water (H2O) absorption coefficient at 300 K :
+
+.. image:: hitran_spectra/out/0%20-%20H2O%20infrared%20spectrum.png
+   :width: 600
+   :alt: Water H2O infrared absorption coefficient
+
+- Carbon dioxide (CO2) absorption coefficient at 300 K : 
+
+.. image:: hitran_spectra/out/1%20-%20CO2%20infrared%20spectrum.png
+   :width: 600
+   :alt: Carbon Dioxide CO2 infrared absorption coefficient
+
+- Methane (CH4) absorption coefficient at 300 K : 
+
+.. image:: hitran_spectra/out/5%20-%20CH4%20infrared%20spectrum.png
+   :width: 600
+   :alt: Methane CH4 infrared absorption coefficient
+
+
+
 Links
 -----
 
