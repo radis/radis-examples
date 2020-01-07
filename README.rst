@@ -104,7 +104,7 @@ For instance:
    :width: 600
    :alt: Methane CH4 infrared absorption coefficient
 
-
+All other species can be found `on the RADIS website <https://radis.readthedocs.io/en/latest/examples/examples.html#hitran-spectra>`__
 
 Links
 -----
