@@ -31,7 +31,16 @@ Calculate CO equilibrium and nonequilibrium spectra:
     :target: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
     :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
 
-3. `radis_online.ipynb <radis_online.ipynb>`_
+3. `online_fitting.ipynb <online_fitting/online_fitting.ipynb>`_ (JupyterLab)
+
+Import experimental spectra in an online JupyterLab instance and start fitting them!
+
+.. image:: https://mybinder.org/badge.svg 
+    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/first_example.ipynb
+    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/first_example.ipynb
+
+
+4. `radis_online.ipynb <radis_online.ipynb>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Start a bare RADIS online session: 
