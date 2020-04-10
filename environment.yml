@@ -18,5 +18,7 @@ dependencies:
 - h5py
 - numba
 - astroquery
+- pip
 - pip:
-  - radis>=0.9.14
+  - radis>=0.9.25
+  - jupyter-offlinenotebook
