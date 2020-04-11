@@ -23,7 +23,7 @@ Manipulate a `Spectrum <http://radis.readthedocs.io/en/latest/source/radis.spect
     :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=spectrum.ipynb
 
 2. `first_example.ipynb <first_example.ipynb>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Calculate CO equilibrium and nonequilibrium spectra:
 
@@ -32,12 +32,13 @@ Calculate CO equilibrium and nonequilibrium spectra:
     :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=first_example.ipynb
 
 3. `online_fitting.ipynb <online_fitting/online_fitting.ipynb>`_ (JupyterLab)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Import experimental spectra in an online JupyterLab instance and start fitting them!
 
 .. image:: https://mybinder.org/badge.svg 
-    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/first_example.ipynb
-    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/first_example.ipynb
+    :target: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/online_fitting/online_fitting.ipynb
+    :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?urlpath=lab/tree/online_fitting/online_fitting.ipynb
 
 
 4. `radis_online.ipynb <radis_online.ipynb>`_
