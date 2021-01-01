@@ -20,5 +20,5 @@ dependencies:
 - astroquery
 - pip
 - pip:
-  - radis>=0.9.25
+  - radis>=0.9.26
   - jupyter-offlinenotebook
