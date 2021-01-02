@@ -51,6 +51,25 @@ Start a bare RADIS online session:
     :alt: https://mybinder.org/v2/gh/radis/radis-examples/master?filepath=radis_online.ipynb
 
 
+`RADIS-lab <https://github.com/radis/radis-lab>`__
+--------------------------------------------------
+
+A full online environment for advanced spectrum processing and comparison with experimental data
+
+.. image:: https://user-images.githubusercontent.com/16088743/103448773-7d8f0200-4c9e-11eb-8bf1-ce3385519b77.png
+    :target: https://user-images.githubusercontent.com/16088743/103448773-7d8f0200-4c9e-11eb-8bf1-ce3385519b77.png
+    :alt: radis-lab-wip-02-01-21
+    
+More on `radis-lab <https://github.com/radis/radis-lab>`__
+    
+.. image:: https://mybinder.org/badge.svg 
+    :target: https://mybinder.org/v2/gh/radis/radis-lab/main?urlpath=lab/tree/compare_with_experiment.ipynb
+    :alt: https://mybinder.org/v2/gh/radis/radis-lab/main?urlpath=lab/tree/compare_with_experiment.ipynb
+
+
+
+
+
 Static Examples
 ---------------
 
