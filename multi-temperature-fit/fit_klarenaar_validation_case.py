@@ -49,7 +49,7 @@ from scipy.optimize import minimize
 # Data from Dang, adapted by Klarenaar, digitized by us
 s_exp = Spectrum.from_txt(getValidationCase('test_CO2_3Tvib_vs_klarenaar_data' +
                                             '\klarenaar_2017_digitized_data.csv'),
-                          'transmittance_noslit', waveunit='cm-1', unit='I/I0',
+                          'transmittance_noslit', waveunit='cm-1', unit='',
                           delimiter=',',
                           name='Klarenaar 2017')
 
