@@ -97,7 +97,8 @@ sf = SpectrumFactory(wavenum_min=wmin,
                      wstep=wstep,
                      warnings={'MissingSelfBroadeningWarning':'ignore'},
                      export_lines=False,
-                     chunksize='DLM',
+                     optimization=None, # actually faster at low temperatures than using a line database & 'min-RMS',
+                     chunksize=1e7, 
                      )
 sf.fetch_databank(load_energies=False)   # loads from HITRAN, requires an internet connection
 
@@ -115,7 +116,7 @@ s_earth_0 = sPlanck(wmin, wmax, wstep=wstep, T=T_earth, eps=1-albedo)
 # Calculate atmosphere layers
 
 slabs = []
-print('Calculating Atmosphere layers')
+print(f'Calculating {len(atm)} Atmosphere layers')
 pb = ProgressBar(len(atm))
 for i, r in atm.iterrows():
     pb.update(i)
