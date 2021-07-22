@@ -37,6 +37,7 @@ from radis.spectrum import plot_diff
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
+from os.path import join
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -47,8 +48,8 @@ from scipy.optimize import minimize
 # %% Get Fitted Data
 
 # Data from Dang, adapted by Klarenaar, digitized by us
-s_exp = Spectrum.from_txt(getValidationCase('test_CO2_3Tvib_vs_klarenaar_data' +
-                                            '\klarenaar_2017_digitized_data.csv'),
+s_exp = Spectrum.from_txt(getValidationCase(join('test_CO2_3Tvib_vs_klarenaar_data',
+                                                 'klarenaar_2017_digitized_data.csv')),
                           'transmittance_noslit', waveunit='cm-1', unit='',
                           delimiter=',',
                           name='Klarenaar 2017')
