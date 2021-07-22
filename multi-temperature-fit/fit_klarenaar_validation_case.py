@@ -30,13 +30,14 @@ References
 
 """
 
-from radis.test.utils import getValidationCase
+from radis.test.utils import getValidationCase, setup_test_line_databases
 from radis import SpectrumFactory, Spectrum
 from radis.spectrum.compare import get_residual
 from radis.spectrum import plot_diff
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
+from os.path import join
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -47,8 +48,8 @@ from scipy.optimize import minimize
 # %% Get Fitted Data
 
 # Data from Dang, adapted by Klarenaar, digitized by us
-s_exp = Spectrum.from_txt(getValidationCase('test_CO2_3Tvib_vs_klarenaar_data' +
-                                            '\klarenaar_2017_digitized_data.csv'),
+s_exp = Spectrum.from_txt(getValidationCase(join('test_CO2_3Tvib_vs_klarenaar_data',
+                                                 'klarenaar_2017_digitized_data.csv')),
                           'transmittance_noslit', waveunit='cm-1', unit='',
                           delimiter=',',
                           name='Klarenaar 2017')
@@ -71,6 +72,7 @@ sf = SpectrumFactory(2284.2, 2284.6,
                      export_populations=None,   # 'vib',
                      )
 sf.warnings['MissingSelfBroadeningWarning'] = 'ignore'
+setup_test_line_databases()
 sf.load_databank('HITEMP-CO2-TEST')
 
 # Get initial values of fitted parameters
