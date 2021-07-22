@@ -98,6 +98,8 @@ class and the associated compare and load functions
 .. [2] Dang et al 1982, "Detailed vibrational population distributions in a CO2 laser 
         discharge as measured with a tunable diode laser" doi/10.1007/BF00694640
 
+Code is available in the `fit_klarenaar_validation_case.py file <multi-temperature-fit/fit_klarenaar_validation_case.py>`__
+
 2. Radiative forcing of CO2 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -107,7 +109,7 @@ forcing of CO2.
 
 .. image:: ex_radiative_forcing_co2/out/atmosphere_co2_column.png
 
-Code is available in the `radiative_forcing_co2.py file <https://github.com/radis/radis-examples/blob/master/ex_radiative_forcing_co2/radiative_forcing_co2.py>`__
+Code is available in the `radiative_forcing_co2.py file <ex_radiative_forcing_co2/radiative_forcing_co2.py>`__
 
 3. HITRAN spectra
 ~~~~~~~~~~~~~~~~~
