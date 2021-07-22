@@ -30,7 +30,7 @@ References
 
 """
 
-from radis.test.utils import getValidationCase
+from radis.test.utils import getValidationCase, setup_test_line_databases
 from radis import SpectrumFactory, Spectrum
 from radis.spectrum.compare import get_residual
 from radis.spectrum import plot_diff
@@ -72,6 +72,7 @@ sf = SpectrumFactory(2284.2, 2284.6,
                      export_populations=None,   # 'vib',
                      )
 sf.warnings['MissingSelfBroadeningWarning'] = 'ignore'
+setup_test_line_databases()
 sf.load_databank('HITEMP-CO2-TEST')
 
 # Get initial values of fitted parameters
